@@ -1,0 +1,2 @@
+# RiceBowlMaker
+We want to build RiceBowl objects, but its construction is complex because of the many parameters needed. To aid the user we introduce Builder class. takes the minimum parameters to build Builder object in its constructor. After that additional configuration for the RiceBowl object can be done using the fluent Builder interface. When configuration is ready the build method is called to receive the final RiceBowl Object is created.
